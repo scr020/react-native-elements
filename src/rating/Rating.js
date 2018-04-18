@@ -206,7 +206,7 @@ export default class Rating extends Component {
             showReadOnlyText } = this.props;
 
     const color = ratingTextColor || TYPES[type].color;
-    
+
     const showReadOnlyText_ = showReadOnlyText && readonly;
 
     return (
@@ -250,7 +250,7 @@ export default class Rating extends Component {
 
     return (
       <View pointerEvents={readonly ? 'none' : 'auto'} style={style}>
-        {showRating && this.displayCurrentRating()}
+      
         <View
           style={styles.starsWrapper}
           {...this.state.panResponder.panHandlers}
