@@ -60,6 +60,7 @@ export default class Rating extends Component {
 
   constructor(props) {
     super(props);
+    console.log('*SCAR ELEMENTS ----  Rating');
 
     const { onFinishRating, fractions } = this.props;
 
