@@ -250,7 +250,6 @@ export default class Rating extends Component {
 
     return (
       <View pointerEvents={readonly ? 'none' : 'auto'} style={style}>
-      
         <View
           style={styles.starsWrapper}
           {...this.state.panResponder.panHandlers}
